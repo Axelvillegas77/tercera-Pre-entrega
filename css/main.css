@@ -1,0 +1,1231 @@
+/* reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(250, 200, 107);
+}
+
+/* aplicando estilos a inicio */
+/* formato mobile  */
+
+.headerInicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.headerInicio h1 {
+    background-color: orange;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.navbar-toggler {
+    background-color: orange;
+}
+
+.segundoUl {
+    display: none;
+}
+
+.padreUl {
+    list-style: none;
+    padding: 1rem;
+}
+
+.sectionInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionInicio h2 {
+    background-color: orange;
+    text-align: center;
+    border-radius: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    width: 90%;
+    box-shadow: 4px 4px 5px black;
+}
+
+.sectionInicio h3 {
+    background-color: orange;
+    text-align: center;
+    font-size: large;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 3rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.padreInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.inicioUno .card {
+    background-color: rgb(241, 178, 63);
+    display: flex;
+    align-items: center;
+}
+
+.inicioUno img {
+    width: 75%;
+    height: 35vh;
+    margin: 0.7rem;
+}
+
+.inicioUno p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+.inicioDos .card {
+    background-color: rgb(241, 178, 63);
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    width: 18rem;
+}
+
+.inicioDos img {
+    width: 90%;
+    height: 35vh;
+    margin-top: 0.7rem;
+}
+
+.inicioDos p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+.inicioTres .card {
+    background-color: rgb(241, 178, 63);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 18rem;
+}
+
+.inicioTres img {
+    width: 80%;
+    height: 35vh;
+    margin-top: 0.7rem;
+}
+
+.inicioTres p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+.inicioCuatro .card {
+    background-color: rgb(241, 178, 63);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 18rem;
+}
+
+.inicioCuatro img {
+    margin-top: 0.7rem;
+    width: 80%;
+    height: 35vh;
+}
+
+.inicioCuatro p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+.inicioCinco .card {
+    background-color: rgb(241, 178, 63);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 18rem;
+}
+
+.inicioCinco img {
+    width: 90%;
+    height: 35vh;
+    margin-top: 0.7rem;
+}
+
+.inicioCinco p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+.inicioSeis .card {
+    background-color: rgb(241, 178, 63);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 18rem;
+}
+
+.inicioSeis img {
+    width: 85%;
+    height: 35vh;
+    margin: 0.7rem;
+}
+
+.inicioSeis p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    box-shadow: 3px 3px 4px black;
+}
+
+footer {
+    background-color: orange;
+    margin: 1rem;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 3rem;
+}
+
+footer h4 {
+    border-radius: 3rem;
+    font-size: large;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+/* estilos de inicio */
+/* formato para tablet */
+
+@media (min-width: 600px) {}
+
+/* estilos de inicio */
+/* formato para pc */
+
+@media (min-width: 1024px) {
+
+    .containerFluid {
+        display: none;
+    }
+
+    .headerInicio {
+        display: flex;
+        justify-content: space-around;
+        height: 20vh;
+    }
+
+    .segundoUl {
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .segundoUl li {
+        background-color: orange;
+        padding: 1.2rem;
+        border-radius: 3rem;
+        box-shadow: 4px 4px 5px black;
+    }
+
+    .segundoUl li:hover {
+        transform: scale(0.9);
+    }
+
+    .sectionInicio {
+        margin-top: 2rem;
+    }
+
+    .sectionInicio h2 {
+        width: 60%;
+        font-size: 1.5rem;
+    }
+
+    .sectionInicio h3 {
+        width: 50%;
+    }
+
+    .padreInicio {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas:
+            " headerInicio headerInicio headerInicio "
+            " inicioUno inicioDos inicioTres "
+            "inicioCuatro inicioCinco inicioSeis"
+            "footer footer footer ";
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    /* .inicioMain {
+        display: flex;
+        justify-content: space-evenly;
+    } */
+
+    .headerInicio {
+        grid-area: inicioHeader;
+    }
+
+    .padreInicio .inicioUno {
+        grid-area: inicioUno;
+    }
+
+    .inicioUno .card {
+        height: 55vh;
+    }
+
+    .inicioUno img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .padreInicio .inicioDos {
+        grid-area: inicioDos;
+        margin-bottom: 1rem;
+    }
+
+    .inicioDos .card {
+        width: 25rem;
+        height: 55vh;
+    }
+
+    .inicioDos img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .inicioDos p {
+        margin-top: 0.5rem;
+    }
+
+    .padreInicio .inicioTres {
+        grid-area: inicioTres;
+        margin-bottom: 1rem;
+    }
+
+    .inicioTres .card {
+        width: 18rem;
+        height: 55vh;
+    }
+
+    .inicioTres img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .inicioTres p {
+        margin-top: 0.5rem;
+    }
+
+    .padreInicio .inicioCuatro {
+        grid-area: inicioCuatro;
+    }
+
+    .inicioCuatro .card {
+        width: 18rem;
+        height: 55vh;
+    }
+
+    .inicioCuatro img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .inicioCuatro p {
+        margin-top: 0.5rem;
+    }
+
+    .padreInicio .inicioCinco {
+        grid-area: inicioCinco;
+    }
+
+    .inicioCinco .card {
+        width: 25rem;
+        height: 55vh;
+    }
+
+    .inicioCinco img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .inicioCinco p {
+        margin-top: 0.6rem;
+    }
+
+    .padreInicio .inicioSeis {
+        grid-area: inicioSeis;
+    }
+
+    .inicioSeis .card {
+        width: 18rem;
+        height: 55vh;
+    }
+
+    .inicioSeis img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .inicioSeis p {
+        margin-bottom: 0.5rem;
+    }
+
+    footer {
+        grid-area: footer;
+        margin: 2rem;
+    }
+}
+
+/* estilos de nosotros  */
+/* formato para mobile  */
+
+.nosotrosMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.mainImg {
+    width: 70%;
+    height: 40vh;
+}
+
+.parrafoUno {
+    background-color: orange;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 70%;
+    box-shadow: 4px 4px 5px black;
+}
+
+.imagenDos {
+    width: 70%;
+    height: 30vh;
+}
+
+.parrafoDos {
+    background-color: orange;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 70%;
+    box-shadow: 4px 4px 5px black;
+}
+
+/* estilos para nosotros  */
+/* formato para tablet  */
+
+@media (min-width: 600px) {}
+
+/* estilos para nosotros  */
+/* formato para pc  */
+
+@media (min-width: 1024px) {
+
+    .nosotrosMain {
+        margin-left: 3rem;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas:
+            " header header"
+            " mainImg parrafoUno"
+            "imagenDos parrafoDos"
+            "footer footer ";
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .headerInicio {
+        grid-area: headerInicio;
+    }
+
+    .nosotrosMain .mainImg {
+        grid-area: mainImg;
+        height: 50vh;
+    }
+
+    .nosotrosMain .parrafoUno {
+        grid-area: parrafoUno;
+        height: 50vh;
+        padding: 2rem;
+    }
+
+    .nosotrosMain .imagenDos {
+        grid-area: imagenDos;
+        height: 35vh;
+    }
+
+    .nosotrosMain .parrafoDos {
+        grid-area: parrafoDos;
+        height: 35vh;
+        padding: 4rem;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+
+/* estilos de catalogo  */
+/* formato para catalogo  */
+
+.sectionCatalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.sectionCatalogo h2 {
+    background-color: orange;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 1.2rem;
+    width: 80%;
+    box-shadow: 4px 4px 5px black;
+    font-size: large;
+}
+
+.containerUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.containerUno img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerUno h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.containerDos {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerDos img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerDos h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.containerTres {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTres img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerTres h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.containerCuatro {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCuatro img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerCuatro h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.containerCinco {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCinco img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerCinco h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+.containerSeis {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSeis img {
+    width: 65%;
+    height: 40vh;
+}
+
+.containerSeis h3 {
+    margin-top: 1rem;
+    background-color: orange;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+}
+
+/* estilos de catalogo */
+/* formato para tablet */
+
+@media (min-width: 600px) {}
+
+/* estilos de catalogo  */
+/* formato para pc  */
+
+@media (min-width: 1024px) {
+
+    .sectionCatalogo h2 {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+
+    .containerCatalogo {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas:
+            " headerInicio headerInicio headerInicio"
+            "containerUno containerDos containerTres"
+            "containerCuatro containerCinco containerSeis"
+            "footer footer footer ";
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .headerInicio {
+        grid-area: headerInicio;
+    }
+
+    .containerCatalogo .containerUno {
+        grid-area: containerUno;
+    }
+
+    .containerUno img {
+        width: 18rem;
+    }
+
+    .containerUno h3 {
+        width: 18rem;
+    }
+
+    .containerCatalogo .containerDos {
+        grid-area: containerDos;
+    }
+
+    .containerDos img {
+        width: 24rem;
+    }
+
+    .containerDos h3 {
+        width: 24rem;
+    }
+
+    .containerCatalogo .containerTres {
+        grid-area: containerTres;
+        margin-bottom: 0.5rem;
+    }
+
+    .containerTres img {
+        width: 18rem;
+    }
+
+    .containerTres h3 {
+        width: 18rem;
+    }
+
+    .containerCatalogo .containerCuatro {
+        grid-area: containerCuatro;
+    }
+
+    .containerCuatro img {
+        width: 18rem;
+    }
+
+    .containerCuatro h3 {
+        width: 18rem;
+    }
+
+    .containerCatalogo .containerCinco {
+        grid-area: containerCinco;
+    }
+
+    .containerCinco img {
+        width: 24rem;
+    }
+
+    .containerCinco h3 {
+        width: 24rem;
+    }
+
+    .containerCatalogo .containerSeis {
+        grid-area: containerSeis;
+    }
+
+    .containerSeis img {
+        width: 18rem;
+    }
+
+    .containerSeis h3 {
+        width: 18rem;
+    }
+}
+
+/* estilos para contacto  */
+/* formato mobile  */
+
+.sectionContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContacto h2 {
+    background-color: orange;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 3rem;
+}
+
+.contactoUno {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoUno img {
+    width: 6rem;
+}
+
+.contactoUno h3 {
+    background-color: orange;
+    box-shadow: 4px 4px 5px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.contactoUno h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactoDos {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoDos img {
+    width: 6rem;
+}
+
+.contactoDos h3 {
+    background-color: orange;
+    box-shadow: 4px 4px 5px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.contactoDos h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactoTres {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoTres img {
+    width: 6rem;
+}
+
+.contactoTres h3 {
+    background-color: orange;
+    box-shadow: 4px 4px 5px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.contactoTres h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactoCuatro {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoCuatro img {
+    width: 6rem;
+}
+
+.contactoCuatro h3 {
+    background-color: orange;
+    box-shadow: 4px 4px 5px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+    margin-right: 5.5rem;
+}
+
+.contactoCuatro h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactoCinco {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoCinco img {
+    width: 6rem;
+}
+
+.contactoCinco h3 {
+    background-color: orange;
+    box-shadow: 4px 4px 5px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+    margin-right: 1.3rem;
+}
+
+.contactoCinco h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* estilos de contacto */
+/* formato para tablet */
+
+@media (min-width: 600px) {
+
+    .sectionContacto h2 {
+        width: 80%;
+    }
+}
+
+/* estilos de contacto  */
+/* formato para pc  */
+
+@media (min-width: 1024px) {
+
+    .sectionContacto {
+        margin-top: 2rem;
+    }
+
+    .sectionContacto h2 {
+        width: 70%;
+        font-size: 1.5rem;
+    }
+
+    .contactoMain {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas:
+            " headerInicio headerInicio"
+            "contactoUno contactoDos"
+            "contactoTres contactoCuatro"
+            "contactoCinco contactoCuatro"
+            "footer footer";
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .headerInicio {
+        grid-area: headerInicio;
+    }
+
+    .contactoMain .contactoUno {
+        grid-area: contactoUno;
+        margin-left: 5rem;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .contactoUno img {
+        width: 5rem;
+        animation-name: imgUno;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    @keyframes imgUno {
+        0% {
+            transform: scale(0.5);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .contactoUno h3:hover {
+        transform: scale(0.9);
+    }
+
+    .contactoMain .contactoDos {
+        grid-area: contactoDos;
+        margin-right: 5rem;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .contactoDos img {
+        width: 5rem;
+        animation-name: imgDos;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    @keyframes imgDos {
+        0% {
+            transform: scale(0.5);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .contactoDos h3:hover {
+        transform: scale(0.9);
+    }
+
+    .contactoMain .contactoTres {
+        grid-area: contactoTres;
+        margin-left: 4.5rem;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .contactoTres img {
+        width: 5rem;
+        animation-name: imgTres;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    @keyframes imgTres {
+        0% {
+            transform: scale(0.5);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .contactoTres h3:hover {
+        transform: scale(0.9);
+    }
+
+    .contactoMain .contactoCuatro {
+        grid-area: contactoCuatro;
+        margin-right: 5rem;
+        margin-bottom: 10rem;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .contactoCuatro img {
+        width: 5rem;
+        animation-name: imgCuatro;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    @keyframes imgCuatro {
+        0% {
+            transform: scale(0.5);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .contactoMain .contactoCinco {
+        grid-area: contactoCinco;
+        margin-left: 4.5rem;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .contactoCinco img {
+        width: 5rem;
+        animation-name: imgCinco;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    @keyframes imgCinco {
+        0% {
+            transform: scale(0.5);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .contactoCinco h3:hover {
+        transform: scale(0.9);
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+}
+
+/* estilos de ubicacion  */
+/* formato para mobile  */
+
+.ubicacionMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.imagenMapa {
+    width: 25rem;
+    height: 40vh;
+}
+
+.ubicacionUno {
+    margin-top: 2rem;
+}
+
+.ubicacionUno p {
+    background-color: orange;
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    font-size: medium;
+    box-shadow: 4px 4px 5px black;
+}
+
+.ubicacionDos {
+    margin-top: 1rem;
+}
+
+.ubicacionDos p {
+    background-color: orange;
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    font-size: medium;
+    box-shadow: 4px 4px 5px black;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: medium;
+    padding: 0.5rem;
+}
+
+/* estilos de ubicacion  */
+/* formato para tablet  */
+
+@media (min-width: 600px) {}
+
+/* estilos de ubicacion  */
+/* formato para tablet  */
+
+@media (min-width: 1024px) {
+
+    .ubicacionMain {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas:
+            "headerInicio headerInicio "
+            " imagenMapa ubicacionUno"
+            "imagenMapa ubicacionDos"
+            "footer footer";
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .headerInicio {
+        grid-area: headerInicio;
+    }
+
+    .ubicacionMain .imagenMapa {
+        grid-area: imagenMapa;
+        width: 30rem;
+        height: 60vh;
+    }
+
+    .ubicacionMain .ubicacionUno {
+        grid-area: ubicacionUno;
+    }
+
+    .ubicacionUno p {
+        height: 25vh;
+        width: 30rem;
+        padding: 3.5rem;
+        font-size: large;
+    }
+
+    .ubicacionMain .ubicacionDos {
+        grid-area: ubicacionDos;
+        margin-bottom: 1.5rem;
+    }
+
+    .ubicacionDos p {
+        height: 25vh;
+        width: 30rem;
+        padding: 2.5rem;
+        font-size: large;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    footer h2 {
+        font-size: large;
+    }
+}
