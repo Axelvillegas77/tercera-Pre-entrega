@@ -16,30 +16,44 @@ body {
 
 .headerInicio {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     padding: 1rem;
+    margin: 1rem;
+    margin-left: 4rem;
 }
 
 .headerInicio h1 {
     background-color: orange;
     border-radius: 2rem;
     padding: 1rem;
-    margin-top: 0.5rem;
     box-shadow: 4px 4px 5px black;
+    height: 10vh;
 }
 
 .navbar-toggler {
     background-color: orange;
 }
 
-.segundoUl {
-    display: none;
+.padreUl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    height: 25vh;
 }
 
-.padreUl {
-    list-style: none;
-    padding: 1rem;
+.padreUl li {
+    background-color: orange;
+    box-shadow: 2px 2px 3px black;
+    text-align: center;
+    width: 7rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: small;
+}
+
+.segundoUl {
+    display: none;
 }
 
 .sectionInicio {
@@ -239,16 +253,22 @@ footer h4 {
     .headerInicio {
         display: flex;
         justify-content: space-around;
-        height: 20vh;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .headerInicio h1{
+        padding: 0.5rem;
+        width: 20rem;
+        text-align: center;
     }
 
     .segundoUl {
-        height: 20vh;
         display: flex;
-        align-items: center;
+        justify-content: center;
         list-style: none;
+        margin-top: 0.5rem;
         gap: 2rem;
-        margin-top: 1rem;
     }
 
     .segundoUl li {
@@ -290,11 +310,6 @@ footer h4 {
         justify-items: center;
         align-items: center;
     }
-
-    /* .inicioMain {
-        display: flex;
-        justify-content: space-evenly;
-    } */
 
     .headerInicio {
         grid-area: inicioHeader;
@@ -513,7 +528,7 @@ footer h4 {
 .sectionCatalogo {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .sectionCatalogo h2 {
@@ -669,8 +684,8 @@ footer h4 {
 @media (min-width: 1024px) {
 
     .sectionCatalogo h2 {
-        width: 70%;
-        font-size: 1.3rem;
+        width: 60%;
+        font-size: 1.5rem;
     }
 
     .containerCatalogo {
@@ -774,6 +789,7 @@ footer h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .sectionContacto h2 {
@@ -793,7 +809,7 @@ footer h4 {
 }
 
 .contactoUno img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .contactoUno h3 {
@@ -801,7 +817,7 @@ footer h4 {
     box-shadow: 4px 4px 5px black;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: large;
+    font-size: medium;
 }
 
 .contactoUno h3 a {
@@ -817,7 +833,7 @@ footer h4 {
 }
 
 .contactoDos img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .contactoDos h3 {
@@ -825,7 +841,7 @@ footer h4 {
     box-shadow: 4px 4px 5px black;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: large;
+    font-size: medium;
 }
 
 .contactoDos h3 a {
@@ -841,7 +857,7 @@ footer h4 {
 }
 
 .contactoTres img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .contactoTres h3 {
@@ -849,7 +865,7 @@ footer h4 {
     box-shadow: 4px 4px 5px black;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: large;
+    font-size: medium;
 }
 
 .contactoTres h3 a {
@@ -865,7 +881,7 @@ footer h4 {
 }
 
 .contactoCuatro img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .contactoCuatro h3 {
@@ -873,7 +889,7 @@ footer h4 {
     box-shadow: 4px 4px 5px black;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: large;
+    font-size: medium;
     margin-right: 5.5rem;
 }
 
@@ -891,7 +907,7 @@ footer h4 {
 }
 
 .contactoCinco img {
-    width: 6rem;
+    width: 5rem;
 }
 
 .contactoCinco h3 {
@@ -899,7 +915,7 @@ footer h4 {
     box-shadow: 4px 4px 5px black;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: large;
+    font-size: medium;
     margin-right: 1.3rem;
 }
 
@@ -922,10 +938,6 @@ footer h4 {
 /* formato para pc  */
 
 @media (min-width: 1024px) {
-
-    .sectionContacto {
-        margin-top: 2rem;
-    }
 
     .sectionContacto h2 {
         width: 70%;
